@@ -1,5 +1,5 @@
 {
-  "name": "client-app",
+  "name": "backoffice-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,8 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lerna-add-packages": "npx lerna add @mg/mg-ui --scope=client-app",
-    "lerna-first-add-packages": "npx lerna clean -y --scope=client-app && npx lerna bootstrap --hoist --scope=client-app"
+    "lerna-add-packages": "npx lerna add @mg/mg-ui --scope=backoffice-app",
+    "lerna-first-add-packages": "npx lerna clean -y && npx lerna bootstrap --hoist"
   },
   "eslintConfig": {
     "extends": "react-app"
